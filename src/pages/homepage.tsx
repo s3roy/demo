@@ -49,7 +49,7 @@ const Homepage = () => {
           display="flex"
           justifyContent={{ xs: 'center', lg: 'end' }}
           my={{ xs: 2, lg: 5 }}
-          mr={5}
+          mr={{ xs: 0, lg: 5 }}
         >
           <Image src={Logo} alt="logo" width={50} height={50} />
         </Grid>
