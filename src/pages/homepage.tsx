@@ -85,7 +85,7 @@ const Homepage = () => {
             </Grid>
           ))}
 
-          <Grid mt={{ xs: 0.5, lg: 2 }}>
+          <Grid mt={{ xs: 1, lg: 2 }}>
             <Button
               variant="contained"
               fullWidth
