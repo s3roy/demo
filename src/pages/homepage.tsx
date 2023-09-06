@@ -96,7 +96,11 @@ const Homepage = () => {
             </Button>
           </Grid>
 
-          <Grid display="flex" justifyContent="center" mt={{ xs: 1, lg: 2 }}>
+          <Grid
+            display="flex"
+            justifyContent={{ xs: 'flex-start', lg: 'center' }}
+            mt={{ xs: 1, lg: 2 }}
+          >
             <Typography mr={1}>Already have an account?</Typography>
             <Link href="#"> Login</Link>
           </Grid>
