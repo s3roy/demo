@@ -41,7 +41,7 @@ const Homepage = () => {
         sx={{
           width: { xs: '100vw', lg: '50vw' },
           marginY: { xs: '5vh', lg: '0vh' },
-          height: { xs: '80vh', lg: '100vh' },
+          height: { xs: '90vh', lg: '100vh' },
           borderRadius: { xs: '40px', xl: '40px 0px 0px 40px' },
         }}
       >
@@ -55,7 +55,7 @@ const Homepage = () => {
         </Grid>
 
         <Box mx={{ xs: 2, sm: 4, md: 8, lg: 18 }}>
-          <Grid container justifyContent="center">
+          <Grid display="flex" justifyContent="center">
             <Typography variant="h4" fontWeight="bold">
               Teach anytime, anywhere!
             </Typography>
