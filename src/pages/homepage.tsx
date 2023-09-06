@@ -56,8 +56,17 @@ const Homepage = () => {
 
         <Box mx={{ xs: 2, sm: 4, md: 8, lg: 18 }}>
           <Grid display="flex" justifyContent="center">
-            <Typography variant="h4" fontWeight="bold">
-              Teach anytime, anywhere!
+            <Typography variant="h4" fontWeight="bold" component="div">
+              Teach anytime,
+              <Box
+                component="span"
+                sx={{
+                  display: { xs: 'block', lg: 'inline' },
+                  textAlign: { xs: 'center', lg: 'left' },
+                }}
+              >
+                anywhere!
+              </Box>
             </Typography>
           </Grid>
 
