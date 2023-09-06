@@ -41,7 +41,7 @@ const Homepage = () => {
         sx={{
           width: { xs: '100vw', lg: '50vw' },
           marginY: { xs: '10vh', lg: '0vh' },
-          height: { xs: '85vh', lg: '100vh' },
+          height: { xs: '75vh', lg: '100vh' },
           borderRadius: { xs: '40px', xl: '40px 0px 0px 40px' },
         }}
       >
