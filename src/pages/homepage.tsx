@@ -40,8 +40,8 @@ const Homepage = () => {
       <Paper
         sx={{
           width: { xs: '100vw', lg: '50vw' },
-          marginY: { xs: '10vh', lg: '0vh' },
-          height: { xs: '75vh', lg: '100vh' },
+          marginY: { xs: '5vh', lg: '0vh' },
+          height: { xs: '80vh', lg: '100vh' },
           borderRadius: { xs: '40px', xl: '40px 0px 0px 40px' },
         }}
       >
@@ -96,7 +96,7 @@ const Homepage = () => {
             </Button>
           </Grid>
 
-          <Grid display="flex" justifyContent="center" mt={{ xs: 0.5, lg: 2 }}>
+          <Grid display="flex" justifyContent="center" mt={{ xs: 1, lg: 2 }}>
             <Typography mr={1}>Already have an account?</Typography>
             <Link href="#"> Login</Link>
           </Grid>
