@@ -13,6 +13,7 @@ import Image from 'next/image';
 
 const backgroundImageStyle = {
   backgroundImage: 'url(/bg.jpg)',
+  backgroundSize: 'cover',
 };
 
 const labelStyles = {
@@ -36,12 +37,13 @@ const Homepage = () => {
       style={backgroundImageStyle}
       justifyContent="flex-end"
       alignItems="center"
+      maxHeight="100vh"
     >
       <Paper
         sx={{
           width: { xs: '100vw', lg: '50vw' },
           marginY: { xs: '5vh', lg: '0vh' },
-          height: { xs: '84vh', lg: '100vh' },
+          height: { xs: '90vh', lg: '100vh' },
           borderRadius: { xs: '40px', xl: '40px 0px 0px 40px' },
         }}
       >
