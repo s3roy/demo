@@ -38,13 +38,12 @@ const Homepage = () => {
       style={backgroundImageStyle}
       justifyContent="flex-end"
       alignItems="center"
-      maxHeight="100vh"
     >
       <Paper
         sx={{
           width: { xs: '100vw', lg: '50vw' },
           marginY: { xs: '2vh', lg: '0vh' },
-          minHeight: { xs: '85vh', lg: '100vh' },
+          minHeight: { xs: '84vh', lg: '100vh' },
           borderRadius: { xs: '40px', xl: '60px 0px 0px 60px' },
         }}
       >
